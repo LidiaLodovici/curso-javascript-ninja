@@ -68,32 +68,40 @@ da propriedade `andando` para o valor booleano que representa "falso".
 Crie um método chamado `nomeCompleto`, que retorne a frase:
 - "Olá! Meu nome é [NOME] [SOBRENOME]!"
 */
-?
+pessoas.nomeCompleto = function(){
+  return "Olá! Meu nome é " + pessoas.nome + " " + pessoas.sobrenome;
+  }
 
 /*
 Crie um método chamado `mostrarIdade`, que retorne a frase:
 - "Olá, eu tenho [IDADE] anos!"
 */
-?
+pessoas.mostraIdade = function(){
+  return "Olá, eu tenho " + pessoas.idade + " anos!";
+  }
 
 /*
 Crie um método chamado `mostrarPeso`, que retorne a frase:
 - "Eu peso [PESO]Kg."
 */
-?
+pessoas.mostrarPeso = function(){
+  return "Eu peso " + pessoas.peso + "Kg";
+  }
 
 /*
 Crie um método chamado `mostrarAltura` que retorne a frase:
 - "Minha altura é [ALTURA]m."
 */
-?
+pessoas.mostrarAltura = function(){
+  return "Minha altura é " + pessoas.altura + "m";
+  }
 
 /*
 Agora vamos brincar um pouco com o objeto criado:
 Qual o nome completo da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-?
+pessoas.nomeCompleto(); //Olá, Meu nome é Lídia Fernandes
 
 /*
 Qual a idade da pessoa? (Use a instrução para responder e comentários
