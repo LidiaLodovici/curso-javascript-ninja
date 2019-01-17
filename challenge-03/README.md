@@ -107,31 +107,33 @@ pessoas.nomeCompleto(); //Olá, Meu nome é Lídia Fernandes
 Qual a idade da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-?
+pessoas.mostrarIdade(); //29
 
 /*
 Qual o peso da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-?
+pessoas.mostrarPeso(); //Eu peso 64kg
 
 /*
 Qual a altura da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-?
+pessoas.altura; //1.68
 
 /*
 Faça a `pessoa` fazer 3 aniversários.
 */
-?
+pessoas.fazerAniversario();
+pessoas.fazerAniversario();
+pessoas.fazerAniversario();
 
 /*
 Quantos anos a `pessoa` tem agora? (Use a instrução para responder e
 comentários inline ao lado da instrução para mostrar qual foi a resposta
 retornada)
 */
-?
+pessoas.idade; //32;
 
 /*
 Agora, faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x,
