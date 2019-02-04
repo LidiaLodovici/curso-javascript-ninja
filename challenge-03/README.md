@@ -173,7 +173,7 @@ inline ao lado da instrução para mostrar a resposta retornada)
 Agora vamos deixar a brincadeira um pouco mais divertida! :D
 Crie um método para o objeto `pessoa` chamado `apresentacao`. Esse método deve
 retornar a string:
-- "Olá, eu sou o [NOME COMPLETO], tenho [IDADE] anos, [ALTURA], meu peso é [PESO] e, só hoje, eu já caminhei [CAMINHOU QUANTOS METROS] metros!"
+- "Olá, eu sou o [NOME COMPLETO], tenho [IDADE] anos, [ALTURA], meu peso é [PESO] e, só hoje, eu já caminhei [CAMINHOU QUANTOS METROS] metros!"*/
 
 pessoa.apresentacao = function(){
   return "Olá, eu sou o + " pessoa.nome + "tenho " + pessoa.idade + " anos, " + pessoa.altura + ", ,eu peso é " + pessoa.peso + "e, só hoje, eu já caminhei " + caminhouQuantosMetros(5) + " metros!";
