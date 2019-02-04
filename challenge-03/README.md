@@ -179,7 +179,7 @@ pessoa.apresentacao = function(){
   return "Olá, eu sou o + " pessoa.nome + "tenho " + pessoa.idade + " anos, " + pessoa.altura + ", ,eu peso é " + pessoa.peso + "e, só hoje, eu já caminhei " + caminhouQuantosMetros(5) + " metros!";
   }
 
-Só que, antes de retornar a string, você vai fazer algumas validações:
+/*Só que, antes de retornar a string, você vai fazer algumas validações:
 - Se o `sexo` de `pessoa` for "Feminino", a frase acima, no início da
 apresentação, onde diz "eu sou o", deve mostrar "a" no lugar do "o";
 - Se a idade for `1`, a frase acima, na parte que fala da idade, vai mostrar a
