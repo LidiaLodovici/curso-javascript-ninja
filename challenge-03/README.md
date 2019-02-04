@@ -190,7 +190,24 @@ deve conter no retorno da frase acima é "metro" no lugar de "metros".
 método), que será concatenada com a frase de retorno, mostrando a resposta
 correta, de acordo com os dados inseridos no objeto.
 */
-?
+
+pessoa.apresentacao = function(){
+    var serMulher = function(){
+      if (pessoa.sexo === "Feminino"){
+      return " a ";} else (pessoa.sexo === "Masculino"){
+      return " o ";}
+    
+    var idade = function(){
+    if (pessoa.idade > 1){
+     return " anos";} else( pessoa.idade <=1){
+     return " ano";}
+    
+
+
+
+
+
+}
 
 // Agora, apresente-se ;)
 ?
