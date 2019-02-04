@@ -62,8 +62,11 @@ pessoas.andar = function(metros){
 Adicione um método ao objeto `pessoa` chamado `parar`, que irá modificar o valor
 da propriedade `andando` para o valor booleano que representa "falso".
 */
-?
-
+pessoa.parar = function(metros){
+  if (metros <= 0){
+  pessoa.andar = false;
+  
+  }
 /*
 Crie um método chamado `nomeCompleto`, que retorne a frase:
 - "Olá! Meu nome é [NOME] [SOBRENOME]!"
@@ -139,24 +142,26 @@ pessoas.idade; //32;
 Agora, faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x,
 com metragens diferentes passadas por parâmetro.
 */
-?
+pessoa.andar = function(m1, m2, m2){
+  caminhouQuantosMetros = m1 + m2 + m3;
+  }
 
 /*
 A pessoa ainda está andando? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-?
+pessoa.andar; //true
 
 /*
 Se a pessoa ainda está andando, faça-a parar.
 */
-?
+pessoa.parar(0);
 
 /*
 E agora: a pessoa ainda está andando? (Use uma instrução para responder e
 comentários inline ao lado da instrução para mostrar a resposta retornada)
 */
-?
+pessoa.andando; //false
 
 /*
 Quantos metros a pessoa andou? (Use uma instrução para responder e comentários
@@ -169,6 +174,10 @@ Agora vamos deixar a brincadeira um pouco mais divertida! :D
 Crie um método para o objeto `pessoa` chamado `apresentacao`. Esse método deve
 retornar a string:
 - "Olá, eu sou o [NOME COMPLETO], tenho [IDADE] anos, [ALTURA], meu peso é [PESO] e, só hoje, eu já caminhei [CAMINHOU QUANTOS METROS] metros!"
+
+pessoa.apresentacao = function(){
+  return "Olá, eu sou o + " pessoa.nome + "tenho " + pessoa.idade + " anos, " + pessoa.altura + ", ,eu peso é " + pessoa.peso + "e, só hoje, eu já caminhei " + caminhouQuantosMetros(5) + " metros!";
+  }
 
 Só que, antes de retornar a string, você vai fazer algumas validações:
 - Se o `sexo` de `pessoa` for "Feminino", a frase acima, no início da
